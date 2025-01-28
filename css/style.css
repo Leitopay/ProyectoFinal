@@ -83,31 +83,6 @@ header a:hover{
   color: white;
 }
 
-button{
-  
-
-  font-size: 1.5em;
-  font-weight: bold;
-  padding: 20px 120px;
-  border-radius: 10px; 
-  border: 1px solid rgba(0,0,0,0.5);
-  box-shadow: 2px 2px 10px rgba(0,0,0,0.5);
-  background-color: white;
-}
-
-.menu{
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
-  flex-direction: column;
-  margin: 60px;
-}
-
-button:hover{
-  background-color: rgb(209, 209, 209);
-}
-
 .card{
   border-radius: 10px;
   
@@ -148,6 +123,9 @@ footer .container{
    border: 5px solid black;
   border-radius: 5px;
   margin: 300px 700px;
+  padding: 10px;
+  background-color:rgb(255, 255, 255);  
+  box-shadow: 2px 2px 10px rgba(0,0,0,0.5);
 }
 
 .login {
@@ -158,18 +136,28 @@ footer .container{
 }
 
 .FondoLogin{
-  background-color:rgb(229, 218, 198) ;
+  /* background-image: url(https://img.freepik.com/foto-gratis/palmera-playa-caribena-nubes_268835-1792.jpg?t=st=1736883645~exp=1736887245~hmac=9582443d11b75fbb345011e41d9566cbff012e2ff049a4a8651b1d906631d348&w=1380);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size:cover;
+  height: autoss; */
+  background-color:rgba(242, 222, 184, 0.582);
 }
 
-@media (min-width: 720px){
+
+
+
+
+@media (min-width: 980px){
   header{
     position: fixed;
     width: 100%;
   }
-
+  
   header .container{
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-between; 
+
   }
 
   header nav{
@@ -178,8 +166,9 @@ footer .container{
     padding-right: 15px;
   }
 
-
-  footer .container{
+  footer {
     align-items: flex-start;
+    
   }
+
 }
