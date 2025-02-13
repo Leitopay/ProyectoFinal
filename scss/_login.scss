@@ -1,0 +1,20 @@
+.loginbox {
+    display: flex;
+    border: 5px solid black;
+    border-radius: 5px;
+    margin: 300px 700px;
+    padding: 10px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+  }
+  
+  .login {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .FondoLogin {
+    background-color: rgba(242, 222, 184, 0.582);
+  }
